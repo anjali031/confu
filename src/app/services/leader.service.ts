@@ -11,11 +11,11 @@ export class LeaderService {
   }
   constructor() { }
 
-  getDish(id: string): Leader {
+  getLeader(id: string): Leader {
     return LEADERS.filter((leader) => (leader.id === id))[0];
   }
 
-  getFeaturedDish(): Leader {
+  getFeaturedLeader(): Leader {
     return LEADERS.filter((leader) => leader.featured)[0];
   }
 }
