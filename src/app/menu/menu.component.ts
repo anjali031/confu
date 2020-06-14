@@ -11,7 +11,7 @@ import { ThrowStmt } from '@angular/compiler';
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent implements OnInit {
-  dishes: Dish[] = DISHES;
+  dishes: Dish[];
 
   selectedDish: any = Dish;
 
