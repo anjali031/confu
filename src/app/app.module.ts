@@ -32,6 +32,10 @@ import { FormsModule } from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { ReactiveFormsModule } from '@angular/forms';
+// adding Spinner
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+// adding slider
+import {MatSliderModule} from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -65,7 +69,12 @@ import { ReactiveFormsModule } from '@angular/forms';
     // reactive forms starts here
     MatSelectModule,
     MatSlideToggleModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    // adding spinner
+    MatProgressSpinnerModule,
+    // slider
+    MatSliderModule
+
   ],
   providers: [DishService, PromotionService, LeaderService],
   entryComponents: [
